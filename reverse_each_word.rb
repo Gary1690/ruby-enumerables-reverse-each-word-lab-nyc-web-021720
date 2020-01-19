@@ -8,9 +8,7 @@
 
 def reverse_each_word(string)
   array = string.split(" ")
-  array.collect{|x|x = x.reverse();p x}.join(" ")
+  array.collect{|x|x = x.reverse()}.join(" ")
 end
 
 
-string = "Hello World"
-puts reverse_each_word(string)
